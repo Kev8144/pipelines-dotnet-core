@@ -18,6 +18,6 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Visual Studio Enterprise Subscription'
+    azureSubscription: '7050c678-77fa-49a4-94e3-abca995a1ca8'
     appName: 'mywebappkds'
     package: $(System.DefaultWorkingDirectory)/**/*.zip
